@@ -1,0 +1,32 @@
+{
+  "name": "inr-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "starts": "tsx src/index.ts",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "Douglas Pacor",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "16.4.7",
+    "prettier": "3.4.2",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "@types/cors": "2.8.17",
+    "@types/express": "5.0.0",
+    "@types/node": "22.13.1",
+    "body-parser": "1.20.3",
+    "cors": "2.8.5",
+    "express": "4.21.2",
+    "socket.io": "4.8.1",
+    "tsup": "8.3.6",
+    "tsx": "4.19.2",
+    "zod": "3.24.1"
+  }
+}
